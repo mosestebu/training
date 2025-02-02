@@ -1,0 +1,60 @@
+1. Write command to create file
+	echo " This is a text within the file" >> afile.txt   
+ or     touch afile.txt
+
+2. What is Git and GitHub 
+
+	Git is a known as a version control sytem, a management tool that helps a developer to manage changes made to files over time. 
+	It allows developers to track changes in their code and can be used to revert back to previous versions of their code. 
+	It can also be used as a collaborative tool for multiple developers to work on same project at the same time. 
+	Git is usually installed locally on a developers pc/laptop and it is open source.
+
+	Github - With Github, one can store his/her git repositories online. It is a web- based platform meaning your repositories can be 
+	accessed from anywhere on the globe. This makes it a great tool for collaboration. 
+
+3. What is the meaning of the acronym CLI 
+
+	Command Line Interface
+
+4. What is the command to see the directory you are inside presently
+
+	pwd
+
+5.Write the command to move into a different directory
+
+	cd directoryname	or 	cd.. (to move backwards a directory)
+
+6. Write the command to list the content of  directory
+
+	ls
+
+7. Write the command to list the content of a directory including leading path
+
+	ls -d "$PWD"/*
+
+8. Write the command to initialize git in adirectory
+
+	git init
+
+9. Write the command to clone a repository
+
+	git clone https://token@weburl.git (If there is need for authentication)
+
+10. Write a command to push a file to GitHub 
+
+	git add .     or     git add <just a single filename> (adds only one specific file) 
+	git commit -m "a comment"
+	git push  
+
+11. What is the difference between git and GitHub
+
+	Git is a commad line tool while Github is a GUI tool
+	Git is installed locally on a machine while Github is web based
+	Git is a tool for version control while Github is a platform that hosts Git repositories with additional collaborative capabilities
+
+
+12. Write the command to configure your git
+
+	git config --gloabal user.name "username"
+	git config --global user.email "useremail"
+
