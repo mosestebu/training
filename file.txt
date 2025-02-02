@@ -1,3 +1,1 @@
-This is a new line
-
-Just a line of text
+Just a new line of text
